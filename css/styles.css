@@ -10932,3 +10932,16 @@ footer.footer {
   font-weight: 400;
   font-style: normal;
 }
+
+.features-icons-item h3 {
+  color: white;
+}
+
+body {
+  opacity: 100;
+  transition: opacity ease 1.5s;
+}
+
+.loading {
+  opacity: 0;
+}
