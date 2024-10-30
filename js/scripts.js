@@ -42,9 +42,9 @@ class LandingPage {
 
     showcase = `<section class="showcase">
         <div class="container-fluid p-0">
-            <div class="row g-0">${this.getShowcaseItem("assets/img/bg-showcase-1.jpg", Resources.bio.title, Resources.bio.description, true)}</div>
-            <div class="row g-0">${this.getShowcaseItem("assets/img/bg-showcase-2.jpg", Resources.clientExpectation.title, Resources.clientExpectation.description, false)}</div>
-            <div class="row g-0">${this.getShowcaseItem("assets/img/bg-showcase-3.jpg", Resources.myExpectation.title, Resources.myExpectation.description, true)}</div>
+            <div class="row g-0">${this.getShowcaseItem("assets/img/bio.jpg", Resources.bio.title, Resources.bio.description, true)}</div>
+            <div class="row g-0">${this.getShowcaseItem("assets/img/cust-expectations.jpg", Resources.clientExpectation.title, Resources.clientExpectation.description, false)}</div>
+            <div class="row g-0">${this.getShowcaseItem("assets/img/my-expectations.jpeg", Resources.myExpectation.title, Resources.myExpectation.description, true)}</div>
         </div>
     </section>`;
     

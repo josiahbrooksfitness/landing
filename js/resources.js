@@ -55,7 +55,7 @@ journey.`
     static modalities = [
         {
             title: "Longevity/Mobility - All Ages (Teens 14+)",
-            image: "assets/img/bg-showcase-1.jpg",
+            image: "assets/img/longevity.jpg",
             description: `This program is designed for anyone looking to maintain long-term physical health.
 The focus is on maintaining muscle mass and addressing any existing muscle
 imbalances that may limit mobility or cause discomfort. By enhancing hand-eye
