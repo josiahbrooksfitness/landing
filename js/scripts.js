@@ -22,9 +22,9 @@ class LandingPage {
                     </div>
                 </div>
                 <div class="row feature-icons text-center">
-                    <div class="col-lg-4">${this.getIcon("bi-heart-pulse", "#dc3545", "Cardio", "Build All Day Energy!")}</div>
-                    <div class="col-lg-4">${this.getIcon("bi-graph-up-arrow", "#198754", "Strength", "Grow Your Confidence!")}</div>
-                    <div class="col-lg-4">${this.getIcon("bi-egg-fried", "#fccf49", "Nutrition", "Fulfill Your Body's Needs!")}</div>
+                    <div class="col-lg-4">${this.getIcon("bi-heart-pulse", "Cardio")}</div>
+                    <div class="col-lg-4">${this.getIcon("bi-graph-up-arrow", "Strength")}</div>
+                    <div class="col-lg-4">${this.getIcon("bi-egg-fried", "Nutrition")}</div>
                 </div>
             </div>
         </header>`;
@@ -47,17 +47,6 @@ class LandingPage {
             <div class="row g-0">${this.getShowcaseItem("assets/img/bg-showcase-3.jpg", Resources.myExpectation.title, Resources.myExpectation.description, true)}</div>
         </div>
     </section>`;
-
-    testimonials = `<section class="testimonials text-center bg-light">
-            <div class="container">
-                <h2 class="mb-5">What people are saying...</h2>
-                <div class="row">
-                    <div class="col-lg-4">${this.getTestimonialItem("assets/img/testimonials-1.jpg", "Johnathan E.", "This is fantastic! Bulking programs have never been so easy!")}</div>
-                    <div class="col-lg-4">${this.getTestimonialItem("assets/img/testimonials-2.jpg", "Jessica S.", "Regular cardio sessions give me the long lasting energy to go anywhere and do anything!")}</div>
-                    <div class="col-lg-4">${this.getTestimonialItem("assets/img/testimonials-3.jpg", "William H.", "Having a complete fitness approach has allowed me to achieve my goals at the right pace for me!")}</div>
-                </div>
-            </div>
-        </section>`;
     
     modalities = `<section class="modalities text-center bg-light">
         <div class="container">
@@ -115,11 +104,10 @@ class LandingPage {
             </div>
         </footer>`;
 
-    getIcon(icon, color, title, description) {
+    getIcon(icon, title) {
         return `<div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                <div class="features-icons-icon d-flex" style="color:${color}"><i class="${icon} m-auto"></i></div>
+                <div class="features-icons-icon d-flex" style="color:#6ba6e0"><i class="${icon} m-auto"></i></div>
                 <h2>${title}</h2>
-                <!-- p class="lead mb-0">${description}</p -->
             </div>`;
     }
 
@@ -140,7 +128,7 @@ class LandingPage {
 
         for (var i = 0; i < Resources.modalities.length; i++) {
             result += `<div class="carousel-item${i === 0 ? ' active' : ''}">
-                <img src="assets/img/testimonials-${i + 1}.jpg" class="d-block w-100">
+                <img src="${Resources.modalities[i].image}" class="d-block w-100">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>${Resources.modalities[i].title}</h5>
                     <p>${Resources.modalities[i].description}</p>

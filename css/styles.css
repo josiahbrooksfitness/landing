@@ -10946,12 +10946,12 @@ body {
   opacity: 0;
 }
 
-.mission, .modalities {
+.mission {
   padding: 5rem 3rem;
 }
 
 .modalities {
-  padding: 2rem 3rem;
+  padding: 2rem 0;
 }
 
 .bio h1 {
@@ -10966,20 +10966,24 @@ body {
   text-align: right;
 }
 
-#modalitiesCarousel {
-  min-height: 400px;
-}
-
 #modalitiesCarousel, #modalitiesCarousel img {
-  max-width: 800px;
-  height: 400px;
+  width: auto;
+  height: 600px;
+  border-radius: 10px;
 }
 
 #modalitiesCarousel img {
-  height: 400px;
+  height: 600px;
 }
 
 .features-icons-icon {
   font-size: 5rem;
   color: white;
+}
+
+.carousel-caption {
+  border-radius: 8px;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.8));
+  color: black;
+  padding: 12px 16px;
 }

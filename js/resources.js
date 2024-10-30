@@ -55,6 +55,7 @@ journey.`
     static modalities = [
         {
             title: "Longevity/Mobility - All Ages (Teens 14+)",
+            image: "assets/img/bg-showcase-1.jpg",
             description: `This program is designed for anyone looking to maintain long-term physical health.
 The focus is on maintaining muscle mass and addressing any existing muscle
 imbalances that may limit mobility or cause discomfort. By enhancing hand-eye
@@ -64,6 +65,7 @@ cognitive health, benefiting individuals of all ages, from teens to seniors.`
         },
         {
             title: "Summer Shape-Up - Adults Ages 21-50",
+            image: "assets/img/bg-showcase-3.jpg",
             description: `A dynamic, results-driven program tailored to adults who want to enhance their
 physique and stamina for the summer months. This regimen targets the
 midsection, helping to tone and define the abdominal muscles. We also work to
@@ -74,6 +76,7 @@ summer-ready look while improving your overall fitness.`
         },
         {
             title: "Strength Training - Adults Ages 18-50",
+            image: "assets/img/bg-showcase-2.jpg",
             description: `Aimed at those who want to build strength and power, this program focuses on
 progressive loading to continually challenge the muscles and promote growth. The
 routine emphasizes proper form to maximize gains and prevent injury, while also
