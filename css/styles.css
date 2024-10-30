@@ -10966,14 +10966,14 @@ body {
   text-align: right;
 }
 
-#modalitiesCarousel, #modalitiesCarousel img {
-  width: auto;
+#modalitiesCarousel, #modalitiesCarousel .carousel-item {
+  width: 100%;
   height: 600px;
   border-radius: 10px;
 }
 
-#modalitiesCarousel img {
-  height: 600px;
+#modalitiesCarousel .d-none {
+  display: inline-block !important;
 }
 
 .features-icons-icon {

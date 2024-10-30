@@ -44,7 +44,7 @@ class LandingPage {
         <div class="container-fluid p-0">
             <div class="row g-0">${this.getShowcaseItem("assets/img/bio.jpg", Resources.bio.title, Resources.bio.description, true)}</div>
             <div class="row g-0">${this.getShowcaseItem("assets/img/cust-expectations.jpg", Resources.clientExpectation.title, Resources.clientExpectation.description, false)}</div>
-            <div class="row g-0">${this.getShowcaseItem("assets/img/my-expectations.jpeg", Resources.myExpectation.title, Resources.myExpectation.description, true)}</div>
+            <div class="row g-0">${this.getShowcaseItem("assets/img/my-expectations.jpg", Resources.myExpectation.title, Resources.myExpectation.description, true)}</div>
         </div>
     </section>`;
     
@@ -127,8 +127,7 @@ class LandingPage {
         var result = '<div class="carousel-inner">';
 
         for (var i = 0; i < Resources.modalities.length; i++) {
-            result += `<div class="carousel-item${i === 0 ? ' active' : ''}">
-                <img src="${Resources.modalities[i].image}" class="d-block w-100">
+            result += `<div class="carousel-item${i === 0 ? ' active' : ''}" style="background: url('${Resources.modalities[i].image}') no-repeat center center">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>${Resources.modalities[i].title}</h5>
                     <p>${Resources.modalities[i].description}</p>
