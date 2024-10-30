@@ -50,7 +50,7 @@ class LandingPage {
     
     modalities = `<section class="modalities text-center bg-light">
         <div class="container">
-            <h1 class="mb-5">Modalities</h1>
+            <h1 class="mb-3">Modalities</h1>
             <div class="row">
                 <div class="col-lg-12">
                     <div id="modalitiesCarousel" class="carousel slide mb-5" data-bs-ride="carousel">
