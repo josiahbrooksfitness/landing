@@ -65,7 +65,7 @@ cognitive health, benefiting individuals of all ages, from teens to seniors.`
         },
         {
             title: "Summer Shape-Up - Adults Ages 21-50",
-            image: "assets/img/bg-showcase-3.jpg",
+            image: "assets/img/summer-shapeup-2.jpg",
             description: `A dynamic, results-driven program tailored to adults who want to enhance their
 physique and stamina for the summer months. This regimen targets the
 midsection, helping to tone and define the abdominal muscles. We also work to
